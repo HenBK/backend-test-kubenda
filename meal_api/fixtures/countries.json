@@ -1,0 +1,1745 @@
+[
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AF",
+        "country_name": "Afghanistan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AX",
+        "country_name": "Åland Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AL",
+        "country_name": "Albania"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "DZ",
+        "country_name": "Algeria"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AS",
+        "country_name": "American Samoa"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AD",
+        "country_name": "Andorra"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AO",
+        "country_name": "Angola"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AI",
+        "country_name": "Anguilla"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AQ",
+        "country_name": "Antarctica"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AG",
+        "country_name": "Antigua and Barbuda"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AR",
+        "country_name": "Argentina"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AM",
+        "country_name": "Armenia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AW",
+        "country_name": "Aruba"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AU",
+        "country_name": "Australia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AT",
+        "country_name": "Austria"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AZ",
+        "country_name": "Azerbaijan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BS",
+        "country_name": "Bahamas"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BH",
+        "country_name": "Bahrain"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BD",
+        "country_name": "Bangladesh"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BB",
+        "country_name": "Barbados"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BY",
+        "country_name": "Belarus"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BE",
+        "country_name": "Belgium"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BZ",
+        "country_name": "Belize"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BJ",
+        "country_name": "Benin"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BM",
+        "country_name": "Bermuda"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BT",
+        "country_name": "Bhutan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BO",
+        "country_name": "Bolivia, Plurinational State of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BQ",
+        "country_name": "Bonaire, Sint Eustatius and Saba"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BA",
+        "country_name": "Bosnia and Herzegovina"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BW",
+        "country_name": "Botswana"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BV",
+        "country_name": "Bouvet Island"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BR",
+        "country_name": "Brazil"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "IO",
+        "country_name": "British Indian Ocean Territory"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BN",
+        "country_name": "Brunei Darussalam"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BG",
+        "country_name": "Bulgaria"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BF",
+        "country_name": "Burkina Faso"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BI",
+        "country_name": "Burundi"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KH",
+        "country_name": "Cambodia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CM",
+        "country_name": "Cameroon"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CA",
+        "country_name": "Canada"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CV",
+        "country_name": "Cape Verde"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KY",
+        "country_name": "Cayman Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CF",
+        "country_name": "Central African Republic"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TD",
+        "country_name": "Chad"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CL",
+        "country_name": "Chile"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CN",
+        "country_name": "China"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CX",
+        "country_name": "Christmas Island"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CC",
+        "country_name": "Cocos (Keeling) Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CO",
+        "country_name": "Colombia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KM",
+        "country_name": "Comoros"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CG",
+        "country_name": "Congo"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CD",
+        "country_name": "Congo, the Democratic Republic of the"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CK",
+        "country_name": "Cook Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CR",
+        "country_name": "Costa Rica"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CI",
+        "country_name": "Côte d'Ivoire"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "HR",
+        "country_name": "Croatia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CU",
+        "country_name": "Cuba"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CW",
+        "country_name": "Curaçao"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CY",
+        "country_name": "Cyprus"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CZ",
+        "country_name": "Czech Republic"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "DK",
+        "country_name": "Denmark"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "DJ",
+        "country_name": "Djibouti"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "DM",
+        "country_name": "Dominica"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "DO",
+        "country_name": "Dominican Republic"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "EC",
+        "country_name": "Ecuador"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "EG",
+        "country_name": "Egypt"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SV",
+        "country_name": "El Salvador"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GQ",
+        "country_name": "Equatorial Guinea"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ER",
+        "country_name": "Eritrea"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "EE",
+        "country_name": "Estonia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ET",
+        "country_name": "Ethiopia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "FK",
+        "country_name": "Falkland Islands (Malvinas)"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "FO",
+        "country_name": "Faroe Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "FJ",
+        "country_name": "Fiji"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "FI",
+        "country_name": "Finland"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "FR",
+        "country_name": "France"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GF",
+        "country_name": "French Guiana"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PF",
+        "country_name": "French Polynesia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TF",
+        "country_name": "French Southern Territories"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GA",
+        "country_name": "Gabon"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GM",
+        "country_name": "Gambia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GE",
+        "country_name": "Georgia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "DE",
+        "country_name": "Germany"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GH",
+        "country_name": "Ghana"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GI",
+        "country_name": "Gibraltar"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GR",
+        "country_name": "Greece"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GL",
+        "country_name": "Greenland"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GD",
+        "country_name": "Grenada"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GP",
+        "country_name": "Guadeloupe"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GU",
+        "country_name": "Guam"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GT",
+        "country_name": "Guatemala"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GG",
+        "country_name": "Guernsey"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GN",
+        "country_name": "Guinea"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GW",
+        "country_name": "Guinea-Bissau"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GY",
+        "country_name": "Guyana"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "HT",
+        "country_name": "Haiti"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "HM",
+        "country_name": "Heard Island and McDonald Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "VA",
+        "country_name": "Holy See (Vatican City State)"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "HN",
+        "country_name": "Honduras"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "HK",
+        "country_name": "Hong Kong"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "HU",
+        "country_name": "Hungary"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "IS",
+        "country_name": "Iceland"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "IN",
+        "country_name": "India"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ID",
+        "country_name": "Indonesia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "IR",
+        "country_name": "Iran, Islamic Republic of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "IQ",
+        "country_name": "Iraq"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "IE",
+        "country_name": "Ireland"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "IM",
+        "country_name": "Isle of Man"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "IL",
+        "country_name": "Israel"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "IT",
+        "country_name": "Italy"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "JM",
+        "country_name": "Jamaica"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "JP",
+        "country_name": "Japan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "JE",
+        "country_name": "Jersey"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "JO",
+        "country_name": "Jordan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KZ",
+        "country_name": "Kazakhstan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KE",
+        "country_name": "Kenya"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KI",
+        "country_name": "Kiribati"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KP",
+        "country_name": "Korea, Democratic People's Republic of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KR",
+        "country_name": "Korea, Republic of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KW",
+        "country_name": "Kuwait"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KG",
+        "country_name": "Kyrgyzstan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LA",
+        "country_name": "Lao People's Democratic Republic"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LV",
+        "country_name": "Latvia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LB",
+        "country_name": "Lebanon"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LS",
+        "country_name": "Lesotho"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LR",
+        "country_name": "Liberia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LY",
+        "country_name": "Libya"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LI",
+        "country_name": "Liechtenstein"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LT",
+        "country_name": "Lithuania"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LU",
+        "country_name": "Luxembourg"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MO",
+        "country_name": "Macao"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MK",
+        "country_name": "Macedonia, the Former Yugoslav Republic of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MG",
+        "country_name": "Madagascar"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MW",
+        "country_name": "Malawi"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MY",
+        "country_name": "Malaysia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MV",
+        "country_name": "Maldives"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ML",
+        "country_name": "Mali"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MT",
+        "country_name": "Malta"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MH",
+        "country_name": "Marshall Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MQ",
+        "country_name": "Martinique"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MR",
+        "country_name": "Mauritania"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MU",
+        "country_name": "Mauritius"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "YT",
+        "country_name": "Mayotte"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MX",
+        "country_name": "Mexico"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "FM",
+        "country_name": "Micronesia, Federated States of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MD",
+        "country_name": "Moldova, Republic of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MC",
+        "country_name": "Monaco"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MN",
+        "country_name": "Mongolia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ME",
+        "country_name": "Montenegro"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MS",
+        "country_name": "Montserrat"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MA",
+        "country_name": "Morocco"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MZ",
+        "country_name": "Mozambique"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MM",
+        "country_name": "Myanmar"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NA",
+        "country_name": "Namibia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NR",
+        "country_name": "Nauru"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NP",
+        "country_name": "Nepal"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NL",
+        "country_name": "Netherlands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NC",
+        "country_name": "New Caledonia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NZ",
+        "country_name": "New Zealand"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NI",
+        "country_name": "Nicaragua"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NE",
+        "country_name": "Niger"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NG",
+        "country_name": "Nigeria"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NU",
+        "country_name": "Niue"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NF",
+        "country_name": "Norfolk Island"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MP",
+        "country_name": "Northern Mariana Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "NO",
+        "country_name": "Norway"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "OM",
+        "country_name": "Oman"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PK",
+        "country_name": "Pakistan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PW",
+        "country_name": "Palau"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PS",
+        "country_name": "Palestine, State of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PA",
+        "country_name": "Panama"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PG",
+        "country_name": "Papua New Guinea"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PY",
+        "country_name": "Paraguay"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PE",
+        "country_name": "Peru"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PH",
+        "country_name": "Philippines"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PN",
+        "country_name": "Pitcairn"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PL",
+        "country_name": "Poland"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PT",
+        "country_name": "Portugal"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PR",
+        "country_name": "Puerto Rico"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "QA",
+        "country_name": "Qatar"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "RE",
+        "country_name": "Réunion"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "RO",
+        "country_name": "Romania"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "RU",
+        "country_name": "Russian Federation"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "RW",
+        "country_name": "Rwanda"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "BL",
+        "country_name": "Saint Barthélemy"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SH",
+        "country_name": "Saint Helena, Ascension and Tristan da Cunha"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "KN",
+        "country_name": "Saint Kitts and Nevis"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LC",
+        "country_name": "Saint Lucia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "MF",
+        "country_name": "Saint Martin (French part)"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "PM",
+        "country_name": "Saint Pierre and Miquelon"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "VC",
+        "country_name": "Saint Vincent and the Grenadines"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "WS",
+        "country_name": "Samoa"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SM",
+        "country_name": "San Marino"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ST",
+        "country_name": "Sao Tome and Principe"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SA",
+        "country_name": "Saudi Arabia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SN",
+        "country_name": "Senegal"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "RS",
+        "country_name": "Serbia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SC",
+        "country_name": "Seychelles"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SL",
+        "country_name": "Sierra Leone"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SG",
+        "country_name": "Singapore"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SX",
+        "country_name": "Sint Maarten (Dutch part)"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SK",
+        "country_name": "Slovakia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SI",
+        "country_name": "Slovenia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SB",
+        "country_name": "Solomon Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SO",
+        "country_name": "Somalia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ZA",
+        "country_name": "South Africa"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GS",
+        "country_name": "South Georgia and the South Sandwich Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SS",
+        "country_name": "South Sudan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ES",
+        "country_name": "Spain"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "LK",
+        "country_name": "Sri Lanka"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SD",
+        "country_name": "Sudan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SR",
+        "country_name": "Suriname"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SJ",
+        "country_name": "Svalbard and Jan Mayen"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SZ",
+        "country_name": "Swaziland"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SE",
+        "country_name": "Sweden"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "CH",
+        "country_name": "Switzerland"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "SY",
+        "country_name": "Syrian Arab Republic"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TW",
+        "country_name": "Taiwan, Province of China"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TJ",
+        "country_name": "Tajikistan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TZ",
+        "country_name": "Tanzania, United Republic of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TH",
+        "country_name": "Thailand"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TL",
+        "country_name": "Timor-Leste"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TG",
+        "country_name": "Togo"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TK",
+        "country_name": "Tokelau"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TO",
+        "country_name": "Tonga"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TT",
+        "country_name": "Trinidad and Tobago"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TN",
+        "country_name": "Tunisia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TR",
+        "country_name": "Turkey"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TM",
+        "country_name": "Turkmenistan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TC",
+        "country_name": "Turks and Caicos Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "TV",
+        "country_name": "Tuvalu"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "UG",
+        "country_name": "Uganda"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "UA",
+        "country_name": "Ukraine"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "AE",
+        "country_name": "United Arab Emirates"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "GB",
+        "country_name": "United Kingdom"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "US",
+        "country_name": "United States"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "UM",
+        "country_name": "United States Minor Outlying Islands"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "UY",
+        "country_name": "Uruguay"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "UZ",
+        "country_name": "Uzbekistan"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "VU",
+        "country_name": "Vanuatu"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "VE",
+        "country_name": "Venezuela, Bolivarian Republic of"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "VN",
+        "country_name": "Viet Nam"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "VG",
+        "country_name": "Virgin Islands, British"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "VI",
+        "country_name": "Virgin Islands, U.S."
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "WF",
+        "country_name": "Wallis and Futuna"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "EH",
+        "country_name": "Western Sahara"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "YE",
+        "country_name": "Yemen"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ZM",
+        "country_name": "Zambia"
+      }
+    },
+    {
+      "model": "meal_api.nationality",
+      "fields": {
+        "iso2_code": "ZW",
+        "country_name": "Zimbabwe"
+      }
+    }
+  ]
