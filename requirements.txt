@@ -11,6 +11,7 @@ Django==3.0.8
 django-extensions==3.0.2
 django-redis==4.11.0
 djangorestframework==3.11.0
+drf-nested-routers==0.92.5
 flake8==3.8.3
 fluent-logger==0.9.6
 freezegun==0.3.15
