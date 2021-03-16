@@ -14,11 +14,12 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.urls import path, include
-
+from meal_api.views import PublicMenuView
 from .utils.healthz import healthz
 
 urlpatterns = [
     path("healthz", healthz, name="healthz"),
     path("api/v1/", include('meal_api.urls')),
     path("auth/", include('rest_framework.urls')),
+    path(r'menu/<uuid:menu_uuid>', PublicMenuView.as_view(), name='public-menu'),
 ]
