@@ -6,6 +6,7 @@ from rest_framework.viewsets import ModelViewSet
 from rest_framework import (
     permissions,
     status,
+    generics,
 )
 
 from .models import (
@@ -186,3 +187,26 @@ class OrderViewSet(ModelViewSet):
                 self.serializer_class(order).data,
                 status=status.HTTP_201_CREATED,
             )
+
+
+class PublicMenuView(generics.RetrieveAPIView):
+    serializer_class = MenuOptionSerializer
+    permission_classes = (permissions.AllowAny,)
+    queryset = MenuOption.objects.all()
+
+    def retrieve(self, request=None, menu_uuid=None):
+        menu = get_object_or_404(
+            Menu,
+            uuid=menu_uuid,
+            is_published=True,
+        )
+
+        data = {
+            'Requested menu': str(menu),
+            'Menu meal options': [
+                self.serializer_class(meal_option).data
+                for meal_option in menu.meal_options
+            ],
+        }
+
+        return Response(data, status=status.HTTP_200_OK)
