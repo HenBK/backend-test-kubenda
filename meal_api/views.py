@@ -27,7 +27,7 @@ class MenuViewSet(ModelViewSet):
     lookup_field = 'uuid'
 
     @action(detail=True)
-    def orders(self, request, pk=None):
+    def orders(self, request, uuid=None):
         menu = self.get_object()
         orders = [
             OrderSerializer(order).data
@@ -42,6 +42,28 @@ class MenuViewSet(ModelViewSet):
                 status=status.HTTP_404_NOT_FOUND,
             )
 
+    @action(detail=True, methods=['POST'])
+    def publish(self, request, uuid=None):
+        menu = self.get_object()
+
+        if len(menu.meal_options):
+            menu.is_published = True
+            menu.save()
+            return Response(
+                {"detail": f"{menu} published successfully!"},
+                status=status.HTTP_200_OK,
+            )
+        else:
+            return Response(
+                {
+                    "detail": (
+                        f"Oops, you are trying to publish {menu} but it has "
+                        "no meal options assigned yet"
+                    ),
+                },
+                status=status.HTTP_304_NOT_MODIFIED,
+            )
+
 
 class MenuOptionViewSet(ModelViewSet):
     serializer_class = MenuOptionSerializer
@@ -49,8 +71,8 @@ class MenuOptionViewSet(ModelViewSet):
     permission_classes = (permissions.IsAdminUser,)
     lookup_field = 'option_number'
 
-    def list(self, request, menu_pk):
-        menu = get_object_or_404(Menu, pk=menu_pk)
+    def list(self, request, menu_uuid):
+        menu = get_object_or_404(Menu, uuid=menu_uuid)
         menu_meal_options = [
             self.serializer_class(menu_option).data
             for menu_option in menu.meal_options
@@ -64,8 +86,8 @@ class MenuOptionViewSet(ModelViewSet):
                 status=status.HTTP_404_NOT_FOUND,
             )
 
-    def create(self, request, menu_pk):
-        menu = get_object_or_404(Menu, pk=menu_pk)
+    def create(self, request, menu_uuid):
+        menu = get_object_or_404(Menu, uuid=menu_uuid)
         menu_option_description = request.data.get('description')
         menu_option_number = request.data.get('option_number')
 
@@ -81,10 +103,10 @@ class MenuOptionViewSet(ModelViewSet):
             status=status.HTTP_201_CREATED,
         )
 
-    def retrieve(self, request, option_number, menu_pk):
+    def retrieve(self, request, option_number, menu_uuid):
         menu_option = get_object_or_404(
             MenuOption,
-            menu__pk=menu_pk,
+            menu__uuid=menu_uuid,
             option_number=option_number,
         )
 
@@ -93,10 +115,10 @@ class MenuOptionViewSet(ModelViewSet):
             status=status.HTTP_200_OK,
         )
 
-    def update(self, request, option_number, menu_pk):
+    def update(self, request, option_number, menu_uuid, partial=None):
         menu_option = get_object_or_404(
             MenuOption,
-            menu__pk=menu_pk,
+            menu__uuid=menu_uuid,
             option_number=option_number,
         )
         menu_option.option_number = request.data.get('option_number')
@@ -108,15 +130,15 @@ class MenuOptionViewSet(ModelViewSet):
             status=status.HTTP_200_OK,
         )
 
-    def destroy(self, request, option_number, menu_pk):
+    def destroy(self, request, option_number, menu_uuid):
         menu_option = get_object_or_404(
             MenuOption,
-            menu__pk=menu_pk,
+            menu__uuid=menu_uuid,
             option_number=option_number,
         )
         menu_option.delete()
 
-        return Response(status=status.HTTP_200_OK)
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 
 class OrderViewSet(ModelViewSet):
