@@ -19,7 +19,12 @@ def client():
 
 @pytest.fixture
 def menu():
-    return mixer.blend(Menu)
+    return mixer.blend(Menu, is_published=False)
+
+
+@pytest.fixture
+def public_menu():
+    return mixer.blend(Menu, is_published=True)
 
 
 @pytest.fixture
