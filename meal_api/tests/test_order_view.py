@@ -1,13 +1,64 @@
 import pytest
 
+from datetime import time
+
 from django.urls import reverse
 from rest_framework import status
+from mockito import (
+    when,
+    unstub,
+)
 
 from meal_api.models import Order
+from backend_test.utils import datetime_utils
 
 
 @pytest.mark.django_db
 class TestOrdersView:
+
+    def test_order_request_exceeds_allowed_hour(
+        self,
+        client,
+        normal_user,
+        menu,
+    ):
+        """
+        Tests that an http400 response is returned if the user is trying to
+        make an order past the maximum allowed hour (11 AM), then checks if
+        the user can order within the allowed hour range receiving an http201
+        """
+        request_url = reverse('meal_api:order-list', args=())
+
+        payload = {
+            'employee': normal_user.pk,
+            'selected_option': 1,
+            'customizations': 'TEST',
+            'menu': menu.uuid,
+        }
+        client.force_login(user=normal_user)
+
+        when(datetime_utils).get_time_now(...).thenReturn(time(hour=15))
+        exceeded_hour_response = client.post(
+            request_url,
+            payload,
+        )
+        unstub()
+
+        when(datetime_utils).get_time_now(...).thenReturn(time(hour=10))
+        accepted_hour_response = client.post(
+            request_url,
+            payload,
+        )
+        unstub()
+
+        assert (
+            exceeded_hour_response.status_code
+            == status.HTTP_400_BAD_REQUEST
+        )
+        assert (
+            accepted_hour_response.status_code
+            == status.HTTP_201_CREATED
+        )
 
     def test_orders_visibility(
         self,
@@ -91,6 +142,8 @@ class TestOrdersView:
         Tests that the super_user is able to access all http request methods
         for the requests handled by MenuOptionViewSet class
         """
+        when(datetime_utils).get_time_now(...).thenReturn(time(hour=10))
+
         request_url = reverse(
             'meal_api:order-detail',
             args=(order.pk,),
@@ -132,7 +185,7 @@ class TestOrdersView:
             status.HTTP_204_NO_CONTENT,  # delete
             status.HTTP_201_CREATED,  # post
         ]
-
+        unstub()
         assert responses == expected_status_codes
 
     def test_unexisting_order_request(self, client, normal_user):
