@@ -16,6 +16,7 @@ services:
       - PYTHONDONTWRITEBYTECODE=1
       # forwarded from the host if they exist
       - UPDATE_PYTHON_REQUIREMENTS_ON_CONTAINERSTART
+      - MEAL_API_BASE_HOST=https://nora.cornershop.io
     volumes:
       - .:/opt/cornershop/backend-test
     ports:
