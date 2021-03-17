@@ -43,7 +43,7 @@ class MenuViewSet(ModelViewSet):
         if len(menu.meal_options):
             menu.is_published = True
             menu.save()
-            send_menu_notification_by_slack.delay(menu)
+            send_menu_notification_by_slack.delay(menu.pk)
 
             return Response(
                 {"detail": f"{menu} published successfully!"},
