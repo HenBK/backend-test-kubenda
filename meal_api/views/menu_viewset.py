@@ -11,6 +11,7 @@ from meal_api.serializers import (
     MenuSerializer,
 )
 from meal_api.models import Menu
+from backend_test.tasks import send_menu_notification_by_slack
 
 
 class MenuViewSet(ModelViewSet):
@@ -42,6 +43,8 @@ class MenuViewSet(ModelViewSet):
         if len(menu.meal_options):
             menu.is_published = True
             menu.save()
+            send_menu_notification_by_slack.delay(menu)
+
             return Response(
                 {"detail": f"{menu} published successfully!"},
                 status=status.HTTP_200_OK,
