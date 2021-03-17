@@ -1,5 +1,6 @@
-from django.shortcuts import get_object_or_404
+from datetime import time
 
+from django.shortcuts import get_object_or_404
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework import (
@@ -7,6 +8,7 @@ from rest_framework import (
     status,
 )
 
+from backend_test.utils import datetime_utils
 from meal_api.models import (
     Employee,
     Menu,
@@ -19,6 +21,8 @@ class OrderViewSet(ModelViewSet):
     serializer_class = OrderSerializer
     queryset = Order.objects.all()
     permission_classes = [permissions.IsAuthenticated | permissions.IsAdminUser]
+
+    MAX_ALLOWED_ORDER_HOUR = time(hour=11)  # 11 AM
 
     def get_queryset(self):
         if self.request.user.is_superuser:
@@ -43,6 +47,17 @@ class OrderViewSet(ModelViewSet):
                     "detail": (
                         f"{menu} already has an order registered for employee "
                         f"{employee}, you might want to edit the existing order."
+                    ),
+                },
+                status=status.HTTP_400_BAD_REQUEST,
+            )
+        elif datetime_utils.get_time_now() > self.MAX_ALLOWED_ORDER_HOUR:
+            return Response(
+                {
+                    "detail": (
+                        "Trying to make an order past to the allowed time,"
+                        "you should consider ordering before "
+                        f"{self.MAX_ALLOWED_ORDER_HOUR}"
                     ),
                 },
                 status=status.HTTP_400_BAD_REQUEST,
