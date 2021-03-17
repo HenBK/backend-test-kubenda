@@ -2,6 +2,12 @@ import pytest
 
 from django.urls import reverse
 from rest_framework import status
+from mockito import (
+    unstub,
+    when,
+)
+
+from backend_test.tasks import send_menu_notification_by_slack
 
 
 @pytest.mark.django_db
@@ -81,12 +87,15 @@ class TestMenuView:
             args=(menu_with_no_meal_options.uuid,),
         )
 
+        when(send_menu_notification_by_slack).delay(...).thenReturn(True)
+
         menu_with_meal_options_response = client.post(
             menu_with_meal_options_request_url,
         )
         menu_with_no_meal_options_response = client.post(
             menu_with_no_meal_options_request_url,
         )
+        unstub()
 
         assert (
             menu_with_meal_options_response.status_code == status.HTTP_200_OK
