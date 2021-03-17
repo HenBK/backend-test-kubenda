@@ -5,6 +5,8 @@ import logging
 from backend_test.celery import app
 from .exceptions import SlackMessageException
 
+from meal_api.models import Menu
+
 
 LOGGER = logging.getLogger(__name__)
 
@@ -64,7 +66,7 @@ def send_slack_message(menu_message, web_hook_url):
 
 
 @app.task
-def send_menu_notification_by_slack(menu, iso2_code='CL'):
+def send_menu_notification_by_slack(menu_id, iso2_code='CL'):
     """
     Sends a slack message to all employees that have ordered in a menu,
     employees are filtered by their nationality iso2_code,
@@ -72,6 +74,7 @@ def send_menu_notification_by_slack(menu, iso2_code='CL'):
     param menu: <Menu model object>
     param iso2_code: str
     """
+    menu = Menu.objects.get(pk=menu_id)
     employees_slack_web_hooks = get_employees_slack_web_hooks(menu, iso2_code)
     menu_mesage = generate_menu_message(menu)
 
