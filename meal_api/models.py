@@ -19,13 +19,17 @@ class Nationality(Model):
 class Employee(AbstractBaseUser, PermissionsMixin):
     """
     Custom user model that supports using email instead of a
-    username and supports nationality and slack_id fields
+    username and supports nationality and slack_web_hook fields
     """
     email = models.EmailField(max_length=100, unique=True)
     name = models.CharField(max_length=100)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
-    slack_id = models.CharField(max_length=100, null=True)
+    slack_web_hook = models.CharField(
+        max_length=100,
+        null=True,
+        help_text="This field is used to send slack messages to the employee"
+    )
     nationality = models.ForeignKey(
         Nationality,
         to_field='iso2_code',

@@ -67,7 +67,7 @@ class TestSlackMenuNotificationTest:
         employee_matched_nationalities = []
 
         for slack_web_hook in employees_slack_web_hooks:
-            employee = Employee.objects.get(slack_id=slack_web_hook)
+            employee = Employee.objects.get(slack_web_hook=slack_web_hook)
             employee_matches_expected_nationality = (
                 employee.nationality.iso2_code
                 == expected_nationality

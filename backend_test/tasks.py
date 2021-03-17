@@ -21,7 +21,7 @@ def get_employees_slack_web_hooks(menu, iso2_code):
 
     for order in menu.orders:
         if order.employee.nationality.iso2_code == iso2_code:
-            employees_slack_web_hooks.append(order.employee.slack_id)
+            employees_slack_web_hooks.append(order.employee.slack_web_hook)
 
     return employees_slack_web_hooks
 
